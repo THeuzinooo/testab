@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+        /* HEADER */
+.conteudo-header img{
+    width: 100%;
+    margin-top: 1rem;
+    max-width: 15rem;
+    height: 8rem;
+}
+.conteudo-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 9rem;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.6);
+    background-color: #005bc5;
+    
+}
+
+.conteudo-header img {
+    margin-left: 4rem;
+}
+
+.conteudo-header nav a {
+    
+    
+    margin-left: 13rem;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.conteudo-header nav a:hover{
+    text-decoration: underline yellow;
+    text-decoration: underline ;
+    color:#001449;
+    
+}
+
+.conteudo-header button {
+    margin-left: 10rem;
+    padding: 1rem 2rem;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    border: none;
+    border-radius: 2rem ;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0);
+}
+
+.conteudo-header button:hover {
+    background-color:#17f9ff;
+    color: #001449;
+}
+
+        /* HEADER-FINAL */
+
+
+        /* SESSAO-1 */
+   
+.conteudo-1{
+    width: 100%;
+    background-color: #73FFFF;
+}
+
+.conteudo-1 h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+    font-weight: 400;
+    font-size: 5rem;
+    color: #005bc5;
+}
+
+.conteudo-1 strong {
+   
+    padding: 0 1.5rem;
+}
+
+.conteudo-1 p { 
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    font-weight: 400;
+    font-size: 2rem;
+    
+    color: #001449;
+}
+
+.img {
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60rem;
+    padding-bottom: 1rem;
+    
+}
+
+    /* FINAL SESSÃO-1 */
+
+
+    /* SESÃO-2 */
+
+.conteudo-2{
+    padding: 5rem;
+    background-color:#001449 ;
+}
+
+.conteudo-2 h2 {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+    font-size: 5rem;
+    color:#17f9ff;
+    
+}
+
+.texto-conteudo-2 h2 {
+    width: 30%;
+    border: 3px solid #17f9ff ;
+    border-radius: 60px;  
+    margin: 0 auto;   
+}
+
+.texto-conteudo-2 h2:hover{
+    background-color: #73FFFF;
+    color: #001449;
+    cursor: pointer;
+}
+
+.texto-conteudo-2 li{
+    margin-top: 7rem;
+    font-size: 5rem;
+    color: #f1396d;
+    margin-left: 40rem;
+    padding: 2rem ;
+}
+
+.texto-conteudo-2  a{
+    
+    text-decoration: none;
+    color: #17f9ff;
+
+}
+.conteudo-2 img {    
+    width: 50rem;
+    margin-left: 45rem;
+
+}
+
+    /* FINAL SESSÃO-2 */
+
+
+
+
+
+        
